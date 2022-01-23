@@ -21,8 +21,6 @@ img{
 .line-p{
     line-height: 40%;
     padding: 1rem;
-    background-image: url("https://material-components.github.io/material-components-web-catalog/static/media/photos/3x2/2.jpg");
-    /* margin-top: 5rem; */
 }
 p{
     font-size: 0.9rem;
@@ -46,28 +44,17 @@ small,p{
     display: flex;
     flex-direction: row;
 }
-.left_side,.right_side{
+.right_side{
     display: flex;
     flex-flow: row wrap;
-    
+    margin-left: auto;
 }
-.left_side{
-    color:blue;
-    margin-right: auto;
-    gap:2rem;
-}
+
 .rgt-icn:hover{
     cursor: pointer;
     background-color:rgb(236, 225, 225);
     border-radius: 50%;
 }
-.lft-icn:hover{
-    cursor: pointer;
-    background-color:rgb(236, 225, 225);
-    border-radius: .2rem;
-}
-
-
 
 
 

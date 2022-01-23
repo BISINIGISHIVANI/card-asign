@@ -35,6 +35,7 @@ small,p{
 .top:hover{
     background-color:rgb(236, 225, 225);
 }
+
 .btm{
     padding: 0.4rem;
     display: flex;
