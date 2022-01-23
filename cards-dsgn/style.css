@@ -22,18 +22,16 @@ img{
 }
 .line-p{
     line-height: 40%;
-    display: flex;
-    flex-direction: column;
-
 }
 small,p{
     color:rgb(163, 159, 159);
 }
 
-/* .top{
+.top{
     cursor: pointer;
-    
-} */
+    display: flex;
+    flex-direction: column;
+}
 /* .top:hover{
     background-color:rgb(236, 225, 225);
 } */
