@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100&family=Rubik:wght@300;400&family=Ubuntu+Mono&display=swap');
+/* @import url("./component.css") */
+body{
+    font-family: sans-serif;
+} 
+ #card{
+    border: 1px solid;
+    border-radius: 0.5rem;
+    box-shadow: 5px 10px #888888;
+   width:22rem;
+   margin:0 auto;
+   display: flex;
+   flex-direction: column;
+   box-shadow:2px burlywood;
+}
+img{
+    width:22rem;
+    height:11rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.line-p{
+    line-height: 40%;
+    padding: 1rem;
+    margin-top:-6rem;
+    color: white;
+    /* margin-top: 5rem; */
+}
+p{
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    color:rgb(163, 159, 159);
+}
+
+
+.top{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.top:hover{
+    background-color:rgb(236, 225, 225);
+}
+
+.btm{
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: row;
+}
+.left_side,.right_side{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.left_side{
+    color:blue;
+    margin-right: auto;
+    gap:2rem;
+}
+.rgt-icn:hover{
+    cursor: pointer;
+    background-color:rgb(236, 225, 225);
+    border-radius: 50%;
+}
+.lft-icn:hover{
+    cursor: pointer;
+    background-color:rgb(236, 225, 225);
+    border-radius: .2rem;
+}
+
+
+
+
+
